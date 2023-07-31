@@ -1,13 +1,6 @@
-/* ---------------- */
-/* Import Libraries */
-/* ---------------- */
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
-
-/* ----------------------- */
-/* Internal Program States */
-/* ----------------------- */
 const PORT = process.env.PORT || 5000;
 const app = express();
 
@@ -15,10 +8,6 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
-
-/* -------------*/
-/* GET Requests */
-/* ------------ */
 
 // app notes api
 app.get('/api/notes', (request, response) => {
@@ -48,10 +37,6 @@ app.get('/', (request, response) => {
     });
 
 });
-
-/* --------------*/
-/* POST Requests */
-/* ------------- */
 
 // app notes api
 app.post('/api/notes', (request, response) => {
