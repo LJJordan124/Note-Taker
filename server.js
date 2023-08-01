@@ -1,24 +1,17 @@
-//Dependencies
 const express = require('express');
-const path = require('path');
-const fs = require('fs');
-const { v4: uuidv4 } = require('uuid');
-const htmlRoutes = require('./routes/htmlRoutes')
-
-const app = express();
+const html_routes = require('./routes/html-routes')
+const api_routes = require('./routes/api-routes')
 const PORT = process.env.PORT || 3001;
+// dynamically set the port
+const app = express();
 
-//Middleware
-app.use(express.urlencoded({ extend: true }));
-app.use(express.static('public'));
+// Express middleware will always run the operation in the order from top to bottom "order matters"
+app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
+app.use(express.static("public"));
+app.use(html_routes)
+app.use(api_routes)
 
-//Routes
-require('./routes/apiRoutes')(app);
-app.use('/', htmlRoutes);
-// require('./routes/htmlRoutes')(app);
-
-//Listening for port
-app.listen(PORT, () =>
-  console.log(`App is listening at http://localhost:${PORT}`)
-);
+app.listen(PORT, () => {
+    console.log(`Server running on http://localhost:${PORT}`);
+});
