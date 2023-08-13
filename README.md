@@ -6,18 +6,8 @@ This project was provided as a challenge to portray how important it is to take 
 ## Screenshot
 WILL BE UPDATED AT A LATER TIME
 
-## Features
+## Instructions
 WILL BE UPDATED AT A LATER TIME
-
-## Languages & Dependencies
-* Node.js
-* Express.js
-
-The application will be invoked by using the following command:
-
-```bash
-node index.js
-```
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
