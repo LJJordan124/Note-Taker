@@ -3,20 +3,6 @@
 ## Description
 This project was provided as a challenge to portray how important it is to take notes during meetings in case any ideas come up or things needed to be fixed, either way, the brain is compressed with too many ideas and could stress someone out, especially when you can't remember what you forgot. This project was modified from a different source and has YET TO BE deployed on Heroku.
 
-## Screenshot
-WILL BE UPDATED AT A LATER TIME
-
-## Instructions
-WILL BE UPDATED AT A LATER TIME
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
-
-## Questions - Contact Me
-* Email - jordan3313.lj@gmail.com
-* LinkedIn - [Laura Delaney](https://www.linkedin.com/in/laura-jordan-510412241/)
-
-
 ## Acceptance Criteria
 
 ```
@@ -34,6 +20,19 @@ THEN that note appears in the right-hand column
 WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ```
+
+## Video
+WILL BE UPDATED AT A LATER TIME
+
+## Instructions
+WILL BE UPDATED AT A LATER TIME
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Questions - Contact Me
+* Email - jordan3313.lj@gmail.com
+* LinkedIn - [Laura Delaney](https://www.linkedin.com/in/laura-jordan-510412241/)
 
 ## Getting Started
 
