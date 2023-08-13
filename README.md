@@ -1,4 +1,4 @@
-## Note Taker
+# Note Taker
 
 ## Description
 This project was provided as a challenge to portray how important it is to take notes during meetings in case any ideas come up or things needed to be fixed, either way, the brain is compressed with too many ideas and could stress someone out, especially when you can't remember what you forgot. This project was modified from a different source and has YET TO BE deployed on Heroku.
