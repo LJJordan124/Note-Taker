@@ -25,7 +25,14 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 WILL BE UPDATED AT A LATER TIME
 
 ## Instructions
-WILL BE UPDATED AT A LATER TIME
+Follow the following in the terminal:
+* npm i
+* npm i express
+* npm i inquirer
+* npm i uuid
+
+To start up the application, follow the following in the terminal:
+* node server.js
 
 ## Website
 [Personal Notepad For Managing](https://personal-notepad-for-managing-e1bf26346dfe.herokuapp.com/)
